@@ -16,7 +16,8 @@ Each network is implemented in ```network_modules```, for the most part, in uniq
 There, you can find the small_classifier architechtures, along with the Inception U-net used in the paper.
 
 Within ```network_modules```, you can also find the helper utilities used to track training progress and state, along with other definitions
-for loss functions used in the work. S
+for loss functions used in the work. In ```testing```, all test scripts and their configurations are found.  The test/training data for this 
+project is too large to be hosted; please contact the authors if you need this data.
 
 Saved models are available in the ```checkpoints``` directory; you can see how to load these checkpoints by examining the running scripts in 
 ```run_networks```.  Scripts for data preparation are in the ```data_generation``` directory, however they are unique to the data used in the paper--
