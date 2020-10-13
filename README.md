@@ -22,7 +22,7 @@ Within ```network_modules```, you can also find the helper utilities used to tra
 for loss functions used in the work. In ```testing```, all test scripts and their configurations are found.  The test/training data for this 
 project is too large to be hosted; please contact the authors if you need this data.
 
-Saved models are available in the ```checkpoints``` directory; you can see how to load these checkpoints by examining the running scripts in 
+Saved models would be available in the ```checkpoints``` directory, but the SDNet and SRNet saved models are too large for gihub; you can see how to load these checkpoints by examining the running scripts in 
 ```run_networks```. 
 
 Scripts for data preparation are in the ```data_generation``` directory, however they are unique to the data used in the paper--
