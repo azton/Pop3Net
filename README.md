@@ -1,7 +1,10 @@
 # Pop3Net
 A series of neural networks to predict primordial star formation and feedback in hydrodynamic simulations.  
 This is the code base for the paper "Predicting Localized Primordial Star Forming Regions With Convolutional Neural Networks" 
-by Wells & Norman, 2020 (in preparation).
+by Wells & Norman, 2020 (in preparation).  The code here is presented (as best as I could manage) as used for the paper.  The
+method has been under continual evolution though, so the updated versions can be found at the source: https://github.com/azton/StarNet
+
+
 
 These networks were trained using ```Enzo``` astrophysics simulations with primordial and enriched star 
 formation.  The simulations self consistently track radiation from stellar sources, along with H$_2$ 
